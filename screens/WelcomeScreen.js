@@ -45,7 +45,7 @@ function WelcomeScreen({ navigation }) {
     }
 
     useEffect(() => {
-        dispatch(fetchMovideWithReduxNew());
+        dispatch(fetchMovideWithRedux());
        
     }, [dispatch]);
 
